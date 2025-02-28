@@ -80,11 +80,7 @@ if st.button("Convert 🔄"):
     except Exception as e:
         st.error(f"⚠️ Conversion error: {e}")
 
-# Formula display
-if category == "📏 Length":
-    st.info("📏 Formula: Multiply the length value by the appropriate conversion factor.")
 
-# Show conversion history
 st.markdown("---")
 st.subheader("📜 Conversion History")
 if st.session_state.history:
